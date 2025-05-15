@@ -12,6 +12,7 @@ steps:
         {
           "name": "test123",
           "value": "test"
-        "slotSetting": true
+          "slotSetting": true
+
         }
       ]
