@@ -12,6 +12,6 @@ steps:
         {
           "name": "dupa123",
           "value": "kupa",
-          "slotSetting": true
+          "slotSetting": false
         }
       ]
