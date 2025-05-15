@@ -9,10 +9,9 @@ steps:
     resourceGroupName: 'pipeline1111_group'
     appSettings: |
       [
-        {
-          "name": "test123",
-          "value": "test"
-          "slotSetting": true
-
-        }
+   {
+    "name": "key2",
+    "value": "valueefgh",
+    "slotSetting": true
+   }
       ]
