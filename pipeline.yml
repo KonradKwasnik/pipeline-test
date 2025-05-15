@@ -1,4 +1,4 @@
-
+ting
 trigger: none  # Run manually
 
 pool:
@@ -12,11 +12,10 @@ steps:
     azureSubscription: 'b3df1a00-1e0a-4362-823b-8329a87ce31f'
     appName: 'pipeline1111'
     resourceGroupName: 'pipeline1111_group'
-    slotName: 'staging'
     appSettings: |
       [
         {
-          "name": "dupa",
+          "name": "new setting",
           "value": "kupa",
           "slotSetting": false
         }
