@@ -8,10 +8,10 @@ steps:
     appName: 'pipeline1111'
     resourceGroupName: 'pipeline1111_group'
     appSettings: |
-      [
-  {
-    "name": "new setting",
-    "value": "valueefgh",
-    "slotSetting": true
-   }
-      ]
+  [
+    {
+      "name": "new setting",
+      "value": "valueefgh",
+      "slotSetting": true
+     }
+  ]
