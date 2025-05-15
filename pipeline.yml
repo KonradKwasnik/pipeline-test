@@ -9,15 +9,15 @@ steps:
 - task: AzureAppServiceSettings@1
   displayName: 'Update slotSetting to false'
   inputs:
-    azureSubscription: '<your-service-connection>'
-    appName: '<your-function-app-name>'
-    resourceGroupName: '<your-resource-group>'
+    azureSubscription: 'b3df1a00-1e0a-4362-823b-8329a87ce31f'
+    appName: 'pipeline1111'
+    resourceGroupName: 'pipeline1111_group'
     slotName: 'staging'
     appSettings: |
       [
         {
-          "name": "MY_APP_SETTING",
-          "value": "false",
+          "name": "dupa",
+          "value": "kupa",
           "slotSetting": false
         }
       ]
