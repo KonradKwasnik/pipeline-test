@@ -10,7 +10,13 @@ steps:
     appSettings: |
       [
         {
-          "name": "new setting",
+          "name": "dupa123",
+          "value": "kupa",
+          "slotSetting": true
+        }
+
+        {
+          "name": "dupa",
           "value": "kupa",
           "slotSetting": false
         }
