@@ -1,7 +1,3 @@
-
-steps:
-
-
 steps:
 - task: AzureAppServiceSettings@1
   displayName: 'Update slotSetting to false'
