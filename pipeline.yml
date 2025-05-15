@@ -9,8 +9,8 @@ steps:
     appSettings: |
       [
         {
-          "name": "dupa123a",
-          "value": "kupa",
+          "name": "pipelinetest123a",
+          "value": "test",
           "slotSetting": true
         }
       ]
