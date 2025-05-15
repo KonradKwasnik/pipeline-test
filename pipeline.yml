@@ -10,7 +10,7 @@ steps:
     appSettings: |
       [
   {
-    "name": "pipelinesetting",
+    "name": "new setting",
     "value": "valueefgh",
     "slotSetting": true
    }
