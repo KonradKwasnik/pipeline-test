@@ -1,0 +1,23 @@
+
+trigger: none  # Run manually
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+- task: AzureAppServiceSettings@1
+  displayName: 'Update slotSetting to false'
+  inputs:
+    azureSubscription: '<your-service-connection>'
+    appName: '<your-function-app-name>'
+    resourceGroupName: '<your-resource-group>'
+    slotName: 'staging'
+    appSettings: |
+      [
+        {
+          "name": "MY_APP_SETTING",
+          "value": "false",
+          "slotSetting": false
+        }
+      ]
