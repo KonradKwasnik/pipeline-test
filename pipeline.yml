@@ -12,6 +12,6 @@ steps:
         {
           "name": "new setting",
           "value": "kupa",
-          "slotSetting": false
+          "slotSetting": true
         }
       ]
