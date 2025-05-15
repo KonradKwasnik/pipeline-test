@@ -10,8 +10,8 @@ steps:
     appSettings: |
       [
         {
-          "name": "dupa123",
-          "value": "kup"
-        
+          "name": "test123",
+          "value": "test"
+        "slotSetting": true
         }
       ]
