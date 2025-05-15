@@ -10,7 +10,7 @@ steps:
     appSettings: |
       [
   {
-    "name": "key2",
+    "name": "pipelinesetting",
     "value": "valueefgh",
     "slotSetting": true
    }
