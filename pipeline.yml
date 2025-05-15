@@ -14,10 +14,4 @@ steps:
           "value": "kupa",
           "slotSetting": true
         }
-
-        {
-          "name": "dupa",
-          "value": "kupa",
-          "slotSetting": false
-        }
       ]
