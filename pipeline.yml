@@ -11,6 +11,6 @@ steps:
         {
           "name": "pipelinetest123a",
           "value": "testa",
-          "slotSetting": true
+          "slotSetting": false
         }
       ]
