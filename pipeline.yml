@@ -10,7 +10,7 @@ steps:
       [
         {
           "name": "pipelinetest123a",
-          "value": "test",
-          "slotSetting": false
+          "value": "testa",
+          "slotSetting": true
         }
       ]
